@@ -1,0 +1,25 @@
+# Cadence EDA tool artifacts
+INCA_libs/
+xcelium.d/
+*.log
+*.rc
+*.vcd
+*.shm/
+*.diag
+simvision.svcf
+
+# Genus outputs
+genus.cmd*
+genus.log*
+fv/
+innovus.cmd*
+innovus.log*
+
+# Synthesis intermediate files
+*.enc
+*.dat
+*.lib.bak
+
+# OS
+.DS_Store
+Thumbs.db
