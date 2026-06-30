@@ -42,7 +42,7 @@ module UART_TX
         o_TX_Serial <= 1'b0;
 
         if(r_Clock_Count < CLKS_PER_BIT - 1) begin
-            r_Clock_Count <= CLKS_PER_BIT + 1;
+            r_Clock_Count <= r_Clock_Count + 1;
             r_SM_Main <= TX_START_BIT;  
         end
         else begin
